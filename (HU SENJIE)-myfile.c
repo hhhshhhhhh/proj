@@ -1,11 +1,10 @@
-'''
+
 #include<stdio.h>
 
-void serial(void);
 
 #include<string.h>
 
-
+void list(void);
 
 void main (void)
 {
@@ -73,7 +72,7 @@ void main (void)
         printf("And how's the weather?");
         printf("\nPlease type eihter a number or word from below:");
         
-        serial();
+        list();
         
         scanf("%s", weatsp);
     
